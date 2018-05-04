@@ -1,0 +1,15 @@
+/*List all headers and assign background color*/
+h1, h2, h3 {
+    background-color:lightblue;
+}
+/*Only p in ul are colored yellow*/
+ul p{
+    background-color: yellow;
+}
+/*parent child relation*/
+p>a{
+    background-color: orange;
+}
+.uscities{
+    color:green;
+}

@@ -1,0 +1,7 @@
+#my_menu .submenu ul{
+    display: none;
+}
+
+#my_menu .submenu:hover ul{
+    display: block;
+}

@@ -1,0 +1,31 @@
+#my_menu .submenu ul{
+    display: none;
+    position: fixed; /*keeps tab in place when displays dropdown contents*/
+    /*add color to */
+    background-color: lightblue;
+    /*remove bullet points from list*/
+    list-style-type: none;
+    /*box around contenst of dropdown with border: width style color*/
+    border-left: 3px solid lightsalmon;
+    /*same color as tab border so looks like popped out of tab*/
+    border-right: 3px solid lightsalmon;
+    border-bottom: 3px solid lightsalmon;
+    /*2 problems: natural space between name of tab and drop down contents; also drop down info does not line up under tab titles*/
+    margin-top: 0px;
+    padding:10px; 
+}
+
+#my_menu .submenu:hover ul{
+    display: block;
+}
+
+/*change background color for tabs to see better*/
+#my_menu{
+    background-color: lightsalmon;
+}
+
+/*the tabs are too close together so separate with padding - they are in table mode*/
+#my_menu td{  
+    padding-left: 15px;
+    padding-right: 15px;
+}

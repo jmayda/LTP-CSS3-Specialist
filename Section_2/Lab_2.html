@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>    
+    <title>Lab 2</title>
+    <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css' >
+    <style> /* calls font Anton to display with h1 */
+        h1 {
+            font-family: Anton;
+        }
+        ul.a{ /* unordered list used for dropdown, no bullets */
+            list-style-type: none;
+        }
+        
+        ul.b { /* unordered list of animals, square bullets */
+            list-style-type: square;
+            margin-top=0px; 
+            
+        }
+        
+        #my_menu .submenu ul{
+            display: none;
+            list-style-type: none;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            border-bottom: 1px solid black;
+            margin-top: 0px; 
+            padding-bottom: 10px; 
+            padding-right: 10px;
+            padding-left: 10px;
+            background-color: aquamarine;
+        }
+        
+        #my_menu .submenu:hover ul {
+            display: block;
+        }
+        body {
+            width: 1000px;
+            height: 600px;
+            background-image: url("clipart-sun-decorative_sun_clip_art_23259.jpg");
+            background-size: auto auto;
+            background-repeat: no-repeat;
+           
+    </style>
+</head>
+
+<body>    
+    <div id=body_image>
+        <div id="my_menu">        
+            <table>            
+                <tr>                
+                    <td>                    
+                        <div class="submenu">
+                            About Me
+                            <ul class='a'>
+                                <li>Height: 6'2"</li>
+                                <li>Country: USA</li>
+                                <li>Job: LTP student</li>
+                                <li>Favorite Color: Blue</li>
+                            </ul>
+                        </div> 
+                    </td> 
+                </tr> 
+            </table> 
+        </div> 
+    <h1>Welcome to Lab 2</h1> 
+    <h2>4 Great Pets</h2> 
+        <ul class="b">
+            <li>Cats</li>  
+            <li>Dogs</li>  
+            <li>Birds</li> 
+            <li>Hamsters</li> 
+        </ul> 
+
+    <h2>The 3 Largest US Cities</h2>
+        <ol reversed>
+            <li>Chicago</li> 
+            <li>Los Angeles</li> 
+            <li>New York</li> 
+        </ol>
+    </div>
+</body>
+</html>

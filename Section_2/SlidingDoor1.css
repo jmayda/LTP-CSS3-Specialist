@@ -1,0 +1,25 @@
+a.button{ /* a refers to anchor tag */
+    height: 30px;
+    background-color: transparent;
+    background-image: url("images/button_normal_right.png")
+        /* location of button images on instructors computer */
+    background-repeat: no-repeat;
+    background-position: top right;
+    float: left;
+    display: block; /* button acts as block like a <p> tag i.e. text or other go above or below it but not on it */
+    
+}
+b.button span{ /* for anchor tag with span contained within it */
+    background-color: transparent;
+    background-image: url("images/button_normal_left.png");
+    line-height: 20px;
+    display:block; 
+}
+
+a.button:hover;{ /*link to button in a specific state, i.e. hover */
+    background-image: url("images/button_hover_right.png");
+}
+
+a.button:hover span;{ /*link to button in a specific state, i.e. hover */
+    background-image: url("images/button_hover_left.png");
+}

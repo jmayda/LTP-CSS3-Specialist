@@ -1,0 +1,15 @@
+#col1{
+    color: red;
+    display: inline;
+}
+
+.col2 {
+    background-color: red;
+    display: block;
+    
+}
+
+h1 {
+    background-color: pink;
+    color: green;
+}

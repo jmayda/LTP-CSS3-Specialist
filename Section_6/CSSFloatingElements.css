@@ -1,0 +1,14 @@
+.show-bkg {
+    background-color: gray;
+   
+}
+
+#target-left {
+    background-color: rgb(255,0,0);
+    
+    width: 200px;
+    height: 200px;
+    
+    display: block;
+    
+}

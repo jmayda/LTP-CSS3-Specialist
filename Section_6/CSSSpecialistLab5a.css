@@ -1,0 +1,48 @@
+#s1 {
+    color: blue;
+    
+}
+
+#s2 {
+    color: rbg(255, 0, 0);
+    
+}
+
+#s3 {
+    color: purple;
+   
+}
+#s4 {
+    color: green;
+    
+}
+
+#s5 {
+    color: gray;
+    
+}
+
+#p1 {
+    display: inline;
+    color: yellow;
+}
+
+#p2 {
+    display: inline;
+    color: lightblue;
+}
+#img2{
+    width: 100pz;
+    height: 100px;
+    top: 300px;
+    left: 200px;
+    position: fixed;
+    
+}
+#img1 {
+    height: 100px;
+    width: 100px;
+    top: 500px;
+    position:absolute;
+    z-index: -1;
+}

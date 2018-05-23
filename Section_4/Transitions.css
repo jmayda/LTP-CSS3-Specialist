@@ -1,0 +1,39 @@
+p{
+    margin-left: 100px;
+    margin-right: 100px;
+/* Adds space to paragraph so tab has space to slide out */
+}
+
+.slider {
+    /* set position for sliding tab 200px from the top of the page */
+    top: 200px;
+    
+    position: absolute; /*does away with margin issues of browser so it's positioned where I put it regardless */
+    left: 0px; /*no margin*/
+    height: 30px;
+    line-length: 30px;
+ 
+    width: 0px; /* at rest there is no text visible but have to see something to put mouse over it */
+    overflow: hidden; /* no text in button or tab seen when contracted */
+    
+    padding-left: 15px; /* adds padding to show a little of tab and color it gray */
+    background-color: gray;
+    
+    border-top: black 2px solid; 
+    border-right: black 2px solid; 
+    border-bottom: black 2px solid; 
+    
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; 
+    
+    -webkit-transition: width 2s, background-color 5.5s; /* goes from 0px to 80px over 2 seconds, changes color from start to new color over 5.5 sec */
+    -webkit-transition-timing-function: linear; /* constant change vs. ease that starts slow and speeds up;
+    If not use transition timing then it happens instantly*/
+    
+}
+
+.slider:hover {
+    width: 80px;
+    background-color: rgb(200,100,100);
+    
+}
